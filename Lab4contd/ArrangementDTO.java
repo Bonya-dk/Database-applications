@@ -1,0 +1,33 @@
+package Lab4contd;
+
+public class ArrangementDTO {
+private double amount;
+private String date;
+
+public ArrangementDTO() {
+	
+}
+public ArrangementDTO(double amount, String date) {
+	super();
+	this.amount = amount;
+	this.date = date;
+}
+@Override
+public String toString() {
+	return "Arrangement [amount=" + amount + ", date=" + date + "]";
+}
+public double getAmount() {
+	return amount;
+}
+public String getDate() {
+	return date;
+}
+public void setAmount(double amount) {
+	this.amount = amount;
+}
+public void setDate(String date) {
+	this.date = date;
+}
+
+
+}
